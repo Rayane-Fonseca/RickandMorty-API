@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.lista-rickandmorty{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 40px;
+    padding: 0;
+    margin: 20px;
+    list-style: none;
+}
+
+h3{
+    margin: 50px;
+    font-size: 60px;
+    background-color: #448eb1;
+    justify-self: center;
+    display: flex;
+    font-family: 'RunishMK', sans-serif;                                               
+}
+
+.lista-rickandmorty{
+
+    color: #448eb1;
+
+    img{
+        width: 80%;
+        justify-self: center;
+        display: flex;
+    }
+    
+    p{
+        text-align: center;
+        font-size: 20px;
+    }
+}
+
+body {
+    background-color: black;
+    background-image: url("../assets/novofundo2.jpg");
+    background-repeat: repeat;  
+    background-position: center top;
+    background-size: cover; 
+    background-attachment: scroll;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  
